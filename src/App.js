@@ -15,7 +15,7 @@ function App(){
   }
       return (
            
-            <div className='container'>
+            <div className='container' style={{width:'100vw',height:'100vh',display:'flex',justifyContent:'center',alignItems:'center',flexDirection:'column'}}>
             <input type="text" value={input} className='output'/>
            
             <Keypad handle={handle} evaluate={evaluate} clear={clear}></Keypad>
