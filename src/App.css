@@ -1,0 +1,50 @@
+.conatiner{
+ width: 100%;
+ height: 100%;
+ margin-top: 250px;
+ 
+  
+}
+.output{
+  width:232px;
+  height: 50px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom: none;
+  background-color: rgb(66, 63, 63);
+  color: white;
+  text-align: right;
+  font-size: 20px;
+ 
+}
+  
+button{
+  height: 60px;
+  width:60px;
+  outline: none;
+  border: none;
+  border-right:2px solid rgb(119, 110, 110) ;
+  border-top:2px solid  rgb(119, 110, 110) ;
+  font-size: 20px;
+  cursor: pointer;
+ 
+  
+}
+.operator{
+  border-right: none;
+  background-color:orange;
+  color: white;
+}
+.fun-key{
+  background-color: rgb(209, 207, 207);
+}
+.digit:hover{
+  background-color:rgb(192, 191, 191) ;
+}
+.operator:hover{
+  background-color: rgb(197, 144, 45);
+
+}
+.fun-key:hover{
+  background-color: rgb(140, 134, 134);
+}
